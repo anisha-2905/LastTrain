@@ -1,0 +1,153 @@
+
+# ==========================================
+# DEPENDENCIES
+# ==========================================
+node_modules/
+vendor/
+bower_components/
+
+# ==========================================
+# BUILD OUTPUT
+# ==========================================
+dist/
+build/
+out/
+target/
+release/
+coverage/
+*.egg-info/
+
+# ==========================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets/
+credentials.json
+service-account*.json
+
+# ==========================================
+# PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+htmlcov/
+pip-wheel-metadata/
+
+# ==========================================
+# JAVASCRIPT / TYPESCRIPT
+# ==========================================
+.next/
+.nuxt/
+.svelte-kit/
+.turbo/
+.parcel-cache/
+.vite/
+*.tsbuildinfo
+
+# ==========================================
+# JAVA / ANDROID
+# ==========================================
+.gradle/
+.idea/
+*.class
+*.jar
+*.war
+*.ear
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ==========================================
+# ELECTRON
+# ==========================================
+*.asar
+electron-dist/
+
+# ==========================================
+# LOGS
+# ==========================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# EDITORS & IDEs
+# ==========================================
+.vscode/
+.idea/
+*.sublime-workspace
+*.suo
+*.user
+*.swp
+*.swo
+*.code-workspace
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# DATABASES & LOCAL DATA
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+.cache/
+tmp/
+temp/
+
+# ==========================================
+# JUPYTER NOTEBOOKS
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# TESTING & REPORTS
+# ==========================================
+.nyc_output/
+test-results/
+playwright-report/
+
+# ==========================================
+# MISCELLANEOUS
+# ==========================================
+*.stackdump
+npm-packages-offline-cache/
